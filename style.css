@@ -54,7 +54,7 @@ body{
     display: flex;
     gap: 1.5rem;
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:400px) {
     .nav-bar{
         display: none;
     }
@@ -81,7 +81,7 @@ body{
     display: block;
 
 }
-@media  screen and (max-width:480px) {
+@media  screen and (max-width:400px) {
     .contact-button{
         display: none;
     }
@@ -98,7 +98,7 @@ body{
     display: none;
     
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:400px) {
     .menu{
         display: block;
 
@@ -200,7 +200,7 @@ body{
     width: 100% ;
 
 }
-@media screen and (min-width:480px) {
+@media screen and (min-width:400px) {
     .main-section {
         flex-direction: row;
     }
@@ -275,7 +275,7 @@ animation: slideFromLeft 1s ease forwards;
             color: var(--gray);
 
 }
-@media  screen and (min-width:480px) {
+@media  screen and (min-width:400px) {
     .company-grid{
         grid-template-columns: repeat(4,1fr);
 
@@ -364,7 +364,7 @@ background-color: #4a90e2;
 }
 
 @media
-screen and (max-width:768px) {
+screen and (max-width:400px) {
     .card-section-grid{
         grid-template-columns: repeat(1,1fr);
     }
