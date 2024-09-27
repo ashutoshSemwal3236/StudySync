@@ -51,12 +51,12 @@ body{
 
 }
 .nav-bar{
-    display: none;
+    display: flex;
     gap: 1.5rem;
 }
-@media screen and (min-width:768px) {
+@media screen and (max-width:480px) {
     .nav-bar{
-        display: flex;
+        display: none;
     }
     
 }
@@ -78,12 +78,12 @@ body{
     transition: background-color 0.1s ;
     font-size: 1rem;
     font-weight: 600;
-    display: none;
+    display: block;
 
 }
-@media  screen and (min-width:768px) {
+@media  screen and (max-width:480px) {
     .contact-button{
-        display: block;
+        display: none;
     }
     
 }
@@ -98,7 +98,7 @@ body{
     display: none;
     
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:480px) {
     .menu{
         display: block;
 
@@ -200,7 +200,7 @@ body{
     width: 100% ;
 
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width:480px) {
     .main-section {
         flex-direction: row;
     }
@@ -275,7 +275,7 @@ animation: slideFromLeft 1s ease forwards;
             color: var(--gray);
 
 }
-@media  screen and (min-width:848px) {
+@media  screen and (min-width:480px) {
     .company-grid{
         grid-template-columns: repeat(4,1fr);
 
